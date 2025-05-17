@@ -1,865 +1,558 @@
 <!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="copyright" lang="ru" content="EasyX">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="description" content="Купить донат на сервере BruhWorld">
+        <meta name="keywords" content="minecraft, автодонат, онлайн-магазин, easydonate, BruhWorld">
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="BruhWorld  - Лучший ванильный сервер ❤️">
+        <meta property="og:image" content="/og:image">
+        <meta property="og:url" content="https://lostgrief.easydonate.ru">
 
-<html lang="ru">
+        <meta name="referrer" content="strict-origin-when-cross-origin">
 
-<head>
+        <link rel="icon" href="https://cdn.easydonate.ru/images/favicons/cc/02/cc0298b9c51d9be9ff0e70a3345def1d078abe9bc6a22f3c01dffac98927603e.png" type="image/x-icon">
 
-    <base href="https://client.skydonate.ru/templates/skymagic/">
+        <style media="screen">
+            body {
+                --color-accent: #ff7f66;
+                --color-accent-125: #ff7f6630;
+                --color-accent-15: #ff7f6626;
+                --color-accent-25: #ff7f6640;
+                --color-accent-50: #ff7f6680;
+                --color-accent-75: #ff7f66C0;
+            }
+        </style>
 
-    <meta name="public-key" content="8127bfc26256cc52164fa5bdc38909b4">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/all.min.css">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/theme.min.css?v=10">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/animate.css">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/icons.css">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/style.css?v=414">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/pay-button.css?v=5">
+        <link rel="stylesheet" href="/themes/spirit/assets/css/animate.min.css">
 
-    <title>GameGrief - Магазин</title>
+        
+        <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 
-    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="/themes/spirit/assets/js/isotope.min.js" defer></script>
+        <script type="text/javascript" src="/themes/spirit/assets/js/dragscroll.min.js" defer></script>
 
-    <meta http-equiv="content-language" content="ru">
+        <link rel="stylesheet" href="https://lostgrief.easydonate.ru/plugins/dontfollow/easydonate/assets/css/easydonate.css?v=1">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            </head>
 
-    <meta name="robots" content="index,follow">
+    <body class="light-theme">
+        <nav class="spirit-navbar">
+            <div class="navbar-general">
+                <div class="container">
+                    <div class="d-flex align-items-center justify-content-between">
+                        <div>
+                            <div class="d-flex align-items-center" style="gap: 72px">
+                                <div class="d-flex align-items-center" style="gap: 12px">
+                                    <a class="d-lg-none d-block navbar-dropdown-menu-btn" href="#" data-toggle="collapse" data-target=".navbar-dropdown-menu-wrapper" aria-expanded="false" aria-label="Навигация">
+                                        <svg class="collapse-closed d-none" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 14H28M12 20H28M12 26H28" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
 
-    <meta name="title" content="GameGrief - Магазин">
+                                        <svg class="collapse-collapsed d-none" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M12 12L28 28M28 12L12 28" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </a>
 
-    <meta name="description" content="GameGrief">
-
-    <meta name="keywords" content="сервер, проект, майнкрафт, minecraft, автодонат, донат, GameGrief, магазин, сайт">
-
-    <meta property="og:title" content="GameGrief - Магазин">
-
-    <meta property="og:image" content="https://storage.skydonate.ru/uploads/67add52a41a9a.png">
-
-    <meta property="og:image:width" content="450">
-
-    <meta property="og:image:height" content="450">
-
-    <meta property="og:description" content="GameGrief">
-
-    <meta property="og:type" content="website">
-
-    <meta property="og:url" content= "https://gamegrief.ru/">
-
-    <meta property="og:site_name" content="GameGrief - Магазин">
-
-    <link rel="canonical" href="https://gamegrief.ru/">
-
-    <link rel="icon" type="image/svg+xml" href="https://storage.skydonate.ru/uploads/67add52a41a9a.png">
-
-    <style type="text/css">
-
-    :root {
-
-        --body-bg-color: #0f0f11;
---container-bg-color: #141414;
---main-text-color: #ffffff;
---secondary-gradient-color-one: #ff4d00;
---secondary-gradient-color-two: #ff4d00;
---navigation-color-one: #9b9b9b;
---navigation-color-two: #c3c3c3;
---navigation-color-three: #dcdcdc;
---mobile-navigation-menu-btn-color: #ffffff;
---mobile-navigation-menu-bg-color: #0e0e0e;
---scroll-bg: #141414;
---scroll-slider: #ff4d00;
---inactive-icons-color: #858585;
---copy-ip-background-color: #ffffff;
---copy-ip-color: #ff4d00;
---rules-block-bg-color-one: #ff4d00;
---rules-block-bg-color-two: #ff570f;
---inactive-select-btn-bg-color: #09090a;
---select-btn-border-color: #39393c;
---select-btn-color: #79797b;
---active-btns-color: #000000;
---rules-color: #000000;
---rules-border-color: #ffffff;
---rules-bg-color: #d6edf5;
---price-bg-color: #09090a;
---point-last-products-border-color: #181818;
---point-last-products-fill-color: #ff7300;
---last-product-bg: #171719;
---footer-line-color: #383838;
---copyright-color: #d0d0d0;
---area-made-by-bg-color-one: #161616;
---area-made-by-bg-color-two: #1e1e1e;
---area-made-by-bg-color-three: #292929;
---area-made-by-color: #2e2e2e;
---loading-one-color: #171717;
---loading-two-color: #1f1f1f;
---exit-btn-color-one: #9b9b9b;
---exit-btn-color-two: #c3c3c3;
---exit-btn-color-three: #dcdcdc;
---one-part-pop-up-buy-product-bg-color: #141414;
---two-part-pop-up-buy-product-bg-color: #0e0e0e;
---pop-up-buy-product-containers-bg-color: #09090a;
---pop-up-buy-product-placeholder-color: #b9b9b9;
---pop-up-buy-product-status-method-color: #a5a5a5;
---scroll-gluing-color-one: #9b9b9b;
---scroll-gluing-color-two: #c3c3c3;
---scroll-gluing-color-three: #dcdcdc;
---text-policy-color: #dcdcdc;
-        }
-
-    </style>
-
-        <link rel="stylesheet" type="text/css" href="assets/css/styles.css?v=8">
-
-    </head>
-
-<body>
-
-    <header>
-
-    <div class="header-container">
-
-        <a href="https://gamegrief.ru/">
-
-            <div class="logo-and-title-server-container">
-
-                <img src="https://storage.skydonate.ru/uploads/67add52a41a9a.png" class="logo-server">
-
-                <div class="title-and-description-server">
-
-                    <h1 class="title-server">GameGrief</h1>
-
-                                            <p class="description-server">mc.gamegrief.ru</p>
-
+                                    <div class="collapse navbar-dropdown-menu-wrapper" aria-labelledby="dropdown">
+                                        <div class="navbar-dropdown-menu">
+                                            <ul class="navbar-dropdown-menu-content">
+                                                                                                    <li class="navbar-dropdown-menu-item">
+                                                        <a href="#shop">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M20 7.5L12 3L4 7.5M20 7.5V16.5L12 21M20 7.5L12 12M12 21L4 16.5V7.5M12 21V12M4 7.5L12 12M8.2 9.8L15.8 5.2" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                            Магазин
+                                                        </a>
+                                                    </li>
+                                                    <li class="navbar-dropdown-menu-item">
+                                                        <a href="#servers">
+                                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                <path d="M18 12C18.7956 12 19.5587 11.6839 20.1213 11.1213C20.6839 10.5587 21 9.79565 21 9V7C21 6.20435 20.6839 5.44129 20.1213 4.87868C19.5587 4.31607 18.7956 4 18 4H6C5.20435 4 4.44129 4.31607 3.87868 4.87868C3.31607 5.44129 3 6.20435 3 7V9C3 9.79565 3.31607 10.5587 3.87868 11.1213C4.44129 11.6839 5.20435 12 6 12M18 12H6M18 12C18.7956 12 19.5587 12.3161 20.1213 12.8787C20.6839 13.4413 21 14.2044 21 15V17C21 17.7956 20.6839 18.5587 20.1213 19.1213C19.5587 19.6839 18.7956 20 18 20H6C5.20435 20 4.44129 19.6839 3.87868 19.1213C3.31607 18.5587 3 17.7956 3 17V15C3 14.2044 3.31607 13.4413 3.87868 12.8787C4.44129 12.3161 5.20435 12 6 12M7 8V8.01M7 16V16.01M11 8H17M11 16H17" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                            </svg>
+                                                            Наши серверы
+                                                        </a>
+                                                    </li>
+                                                                                                            <li class="navbar-dropdown-menu-item">
+                                                            <a href="https://lostgrief.easydonate.ru/__instruction">
+                                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                                    <path d="M12 16V16.01M12 13C12.4498 13.0014 12.8868 12.8511 13.2407 12.5734C13.5945 12.2958 13.8444 11.907 13.95 11.4698C14.0557 11.0327 14.0109 10.5726 13.8229 10.1641C13.6349 9.75548 13.3147 9.42219 12.914 9.218C12.5162 9.01421 12.0611 8.95102 11.6228 9.03872C11.1845 9.12642 10.7888 9.35983 10.5 9.701M12 3C19.2 3 21 4.8 21 12C21 19.2 19.2 21 12 21C4.8 21 3 19.2 3 12C3 4.8 4.8 3 12 3Z" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                                </svg>
+                                                                Инструкция по покупке
+                                                            </a>
+                                                        </li>
+                                                                                                                                                </ul>
+                                        </div>
                                     </div>
 
-            </div>
-
-        </a>
-
-        <div class="navigation ">
-
-            <button class="close-navigation-btn">
-
-                <svg class="close-svg" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.606 1.68972C13.7729 1.51683 13.8653 1.28528 13.8632 1.04493C13.8612 0.804585 13.7648 0.574674 13.5948 0.404716C13.4248 0.234759 13.1949 0.138354 12.9546 0.136265C12.7142 0.134177 12.4827 0.226572 12.3098 0.39355L6.99955 5.7038L1.6893 0.39355C1.51641 0.226572 1.28486 0.134177 1.04451 0.136265C0.804164 0.138354 0.574253 0.234759 0.404295 0.404716C0.234338 0.574674 0.137933 0.804585 0.135844 1.04493C0.133755 1.28528 0.226151 1.51683 0.393129 1.68972L5.70338 6.99997L0.393129 12.3102C0.305578 12.3948 0.235744 12.4959 0.187703 12.6078C0.139661 12.7196 0.114374 12.8399 0.113316 12.9616C0.112258 13.0833 0.135451 13.204 0.181542 13.3167C0.227633 13.4293 0.295698 13.5317 0.381766 13.6177C0.467835 13.7038 0.570183 13.7719 0.682838 13.818C0.795492 13.8641 0.916199 13.8873 1.03791 13.8862C1.15963 13.8851 1.27991 13.8598 1.39175 13.8118C1.50359 13.7638 1.60474 13.6939 1.6893 13.6064L6.99955 8.29613L12.3098 13.6064C12.4827 13.7734 12.7142 13.8658 12.9546 13.8637C13.1949 13.8616 13.4248 13.7652 13.5948 13.5952C13.7648 13.4253 13.8612 13.1953 13.8632 12.955C13.8653 12.7147 13.7729 12.4831 13.606 12.3102L8.29571 6.99997L13.606 1.68972Z" fill="url(#paint0_linear_217_855)"/>
-
-                    <defs>
-
-                        <linearGradient id="paint0_linear_217_855" x1="5.80971" y1="-1.87596" x2="20.5709" y2="6.8952" gradientUnits="userSpaceOnUse">
-
-                            <stop stop-color="var(--navigation-color-one)"/>
-
-                            <stop offset="0.325" stop-color="var(--navigation-color-two)"/>
-
-                            <stop offset="1" stop-color="var(--navigation-color-three)"/>
-
-                        </linearGradient>
-
-                    </defs>
-
-                </svg>
-
-            </button>
-
-            <ul class="navigation-hrefs">
-
-                <li>
-
-                    <a class="selected-href" href="https://gamegrief.ru/">
-
-                        <svg viewBox="0 0 33 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                            <path d="M9.625 9.625C9.625 8.86561 10.2406 8.25 11 8.25H22C22.7594 8.25 23.375 8.86561 23.375 9.625C23.375 10.3844 22.7594 11 22 11H11C10.2406 11 9.625 10.3844 9.625 9.625Z" fill="url(#paint0_linear_217_379)"/>
-
-                            <path d="M11 12.375C10.2406 12.375 9.625 12.9906 9.625 13.75C9.625 14.5094 10.2406 15.125 11 15.125H17.875C18.6344 15.125 19.25 14.5094 19.25 13.75C19.25 12.9906 18.6344 12.375 17.875 12.375H11Z" fill="url(#paint1_linear_217_379)"/>
-
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M9.625 31.625H26.125C28.4032 31.625 30.25 29.7782 30.25 27.5V5.5C30.25 3.22183 28.4032 1.375 26.125 1.375H9.625C5.82805 1.375 2.75 4.45305 2.75 8.25V24.75C2.75 28.4701 5.87818 31.625 9.625 31.625ZM5.5 8.25C5.5 5.97183 7.34683 4.125 9.625 4.125H26.125C26.8844 4.125 27.5 4.74061 27.5 5.5V19.4847C27.0699 19.3328 26.6071 19.25 26.125 19.25H9.625C8.07729 19.25 6.64903 19.7614 5.5 20.6245V8.25ZM27.5 23.375C27.5 22.6156 26.8844 22 26.125 22H9.625C7.58106 22 5.55703 23.4482 5.55703 25.4375C5.55703 27.3848 7.58106 28.875 9.625 28.875H26.125C26.8844 28.875 27.5 28.2594 27.5 27.5V23.375Z" fill="url(#paint2_linear_217_379)"/>
-
-                            <defs>
-
-                                <linearGradient id="paint0_linear_217_379" x1="23.375" y1="9.40789" x2="9.62547" y2="9.30739" gradientUnits="userSpaceOnUse">
-
-                                    <stop stop-color="var(--secondary-gradient-color-one)"/>
-
-                                    <stop offset="0.955" stop-color="var(--secondary-gradient-color-two)"/>
-
-                                </linearGradient>
-
-                                <linearGradient id="paint1_linear_217_379" x1="19.25" y1="13.5329" x2="9.62507" y2="13.4836" gradientUnits="userSpaceOnUse">
-
-                                    <stop stop-color="var(--secondary-gradient-color-one)"/>
-
-                                    <stop offset="0.955" stop-color="var(--secondary-gradient-color-two)"/>
-
-                                </linearGradient>
-
-                                <linearGradient id="paint2_linear_217_379" x1="30.25" y1="14.1118" x2="2.74952" y2="14.0753" gradientUnits="userSpaceOnUse">
-
-                                    <stop stop-color="var(--secondary-gradient-color-one)"/>
-
-                                    <stop offset="0.955" stop-color="var(--secondary-gradient-color-two)"/>
-
-                                </linearGradient>
-
-                            </defs>
-
-                        </svg>
-
-                        <div class="name-href" data-t="main-navigaton">Главная</div>
-
-                    </a>
-
-                </li>
-
-                <li>
-
-                    <a href="javascript:void(0)" onclick="scrollToClass('main-block-container')">
-
-                        <svg viewBox="0 0 34 34" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M13.6167 18.4166C13.1 18.4166 12.6243 18.6978 12.3754 19.1506C11.8561 20.0946 12.5392 21.2499 13.6167 21.2499H26.804C27.5864 21.2499 28.2206 21.8842 28.2206 22.6666C28.2206 23.449 27.5864 24.0833 26.804 24.0833H25.4015H11.2348H11.2207C9.06737 24.0833 7.70737 21.7741 8.74154 19.8758L9.95015 17.6913C10.392 16.8927 10.4221 15.9301 10.031 15.1054L6.02447 6.65841C5.73717 6.05268 5.12671 5.66659 4.45632 5.66659H4.13737C3.35497 5.66659 2.7207 5.03232 2.7207 4.24992C2.7207 3.46752 3.35497 2.83325 4.13737 2.83325H5.55962C6.65484 2.83325 7.65199 3.46448 8.12055 4.45441L8.36221 4.96492C8.40776 4.96052 8.45394 4.95825 8.50065 4.95825H29.7506C30.5331 4.95825 31.1673 5.59252 31.1673 6.37492C31.1673 6.76197 31.012 7.11275 30.7606 7.36844C30.8058 7.66444 30.7573 7.97713 30.6018 8.25967L25.8123 16.9574C25.3306 17.8358 24.3956 18.4166 23.3331 18.4166H13.6167ZM11.2348 24.0833C12.7996 24.0833 14.0681 25.3517 14.0681 26.9166C14.0681 28.4814 12.7996 29.7499 11.2348 29.7499C9.66999 29.7499 8.40147 28.4814 8.40147 26.9166C8.40147 25.3517 9.66999 24.0833 11.2348 24.0833ZM25.4015 24.0833C23.8366 24.0833 22.5681 25.3517 22.5681 26.9166C22.5681 28.4814 23.8366 29.7499 25.4015 29.7499C26.9663 29.7499 28.2348 28.4814 28.2348 26.9166C28.2348 25.3517 26.9663 24.0833 25.4015 24.0833Z" fill="var(--inactive-icons-color)"/>
-
-                            <path d="M11.235 28.3333C12.0174 28.3333 12.6517 27.6991 12.6517 26.9167C12.6517 26.1342 12.0174 25.5 11.235 25.5C10.4526 25.5 9.81836 26.1342 9.81836 26.9167C9.81836 27.6991 10.4526 28.3333 11.235 28.3333Z" fill="var(--inactive-icons-color)"/>
-
-                            <path d="M26.8177 26.9167C26.8177 27.6991 26.1835 28.3333 25.401 28.3333C24.6186 28.3333 23.9844 27.6991 23.9844 26.9167C23.9844 26.1342 24.6186 25.5 25.401 25.5C26.1835 25.5 26.8177 26.1342 26.8177 26.9167Z" fill="var(--inactive-icons-color)"/>
-
-                        </svg>
-
-                        <div class="name-href" data-t="shop-navigation">Магазин</div>
-
-                    </a>
-
-                </li>
-
-                                    <li>
-
-                        <a href="https://telegra.ph/Kontakty-02-13-22">
-
-                            <svg viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                                <path d="M22.084 0.833252H7.91732C4.00732 0.833252 0.833984 3.99242 0.833984 7.88825V16.3599V17.7766C0.833984 21.6724 4.00732 24.8316 7.91732 24.8316H10.0423C10.4248 24.8316 10.9348 25.0866 11.1757 25.3983L13.3006 28.2174C14.2356 29.4641 15.7656 29.4641 16.7006 28.2174L18.8256 25.3983C19.0948 25.0441 19.5198 24.8316 19.959 24.8316H22.084C25.994 24.8316 29.1673 21.6724 29.1673 17.7766V7.88825C29.1673 3.99242 25.994 0.833252 22.084 0.833252ZM9.33398 14.9999C8.54065 14.9999 7.91732 14.3624 7.91732 13.5833C7.91732 12.8041 8.55482 12.1666 9.33398 12.1666C10.1132 12.1666 10.7506 12.8041 10.7506 13.5833C10.7506 14.3624 10.1273 14.9999 9.33398 14.9999ZM15.0006 14.9999C14.2073 14.9999 13.584 14.3624 13.584 13.5833C13.584 12.8041 14.2215 12.1666 15.0006 12.1666C15.7798 12.1666 16.4173 12.8041 16.4173 13.5833C16.4173 14.3624 15.794 14.9999 15.0006 14.9999ZM20.6673 14.9999C19.874 14.9999 19.2506 14.3624 19.2506 13.5833C19.2506 12.8041 19.8881 12.1666 20.6673 12.1666C21.4465 12.1666 22.084 12.8041 22.084 13.5833C22.084 14.3624 21.4606 14.9999 20.6673 14.9999Z" fill="var(--inactive-icons-color)"/>
-
-                            </svg>
-
-                            <div class="name-href" data-t="shop-help">Помощь</div>
-
-                        </a>
-
-                    </li>   
-
-                                 
-
-            </ul>
-
-                            <div class="online-container">
-
-                    <svg viewBox="0 0 40 30" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                        <path d="M9.15784 1.46568C9.90634 2.21418 9.90634 3.42775 9.15784 4.17625C3.16787 10.1662 3.16787 19.8779 9.15784 25.8678C9.90634 26.6163 9.90634 27.8299 9.15784 28.5784C8.40933 29.3269 7.19577 29.3269 6.44726 28.5784C-1.03971 21.0914 -1.03971 8.95265 6.44726 1.46568C7.19577 0.717171 8.40933 0.717171 9.15784 1.46568ZM33.56 1.46568C41.047 8.95265 41.047 21.0914 33.56 28.5784C32.8115 29.3269 31.5979 29.3269 30.8494 28.5784C30.1009 27.8299 30.1009 26.6163 30.8494 25.8678C36.8394 19.8779 36.8394 10.1662 30.8494 4.17625C30.1009 3.42775 30.1009 2.21418 30.8494 1.46568C31.5979 0.717171 32.8115 0.717171 33.56 1.46568ZM14.8439 6.97298C15.5924 7.72148 15.5924 8.93505 14.8439 9.68355C11.9096 12.6179 11.9096 17.3754 14.8439 20.3098C15.5924 21.0583 15.5924 22.2718 14.8439 23.0203C14.0954 23.7688 12.8818 23.7688 12.1333 23.0203C7.70199 18.589 7.70199 11.4043 12.1333 6.97298C12.8818 6.22447 14.0954 6.22447 14.8439 6.97298ZM28.1807 6.97298C32.6121 11.4043 32.6121 18.589 28.1807 23.0203C27.4322 23.7688 26.2186 23.7688 25.4701 23.0203C24.7216 22.2718 24.7216 21.0583 25.4701 20.3098C28.4045 17.3754 28.4045 12.6179 25.4701 9.68355C24.7216 8.93505 24.7216 7.72148 25.4701 6.97298C26.2186 6.22447 27.4322 6.22447 28.1807 6.97298ZM20.157 12.281C21.7448 12.281 23.032 13.5682 23.032 15.156C23.032 16.7439 21.7448 18.031 20.157 18.031C18.5692 18.031 17.282 16.7439 17.282 15.156C17.282 13.5682 18.5692 12.281 20.157 12.281Z" fill="url(#paint0_linear_217_422)"/>
-
-                        <defs>
-
-                            <linearGradient id="paint0_linear_217_422" x1="39.1752" y1="12.7929" x2="0.831443" y2="12.7168" gradientUnits="userSpaceOnUse">
-
-                                <stop stop-color="var(--secondary-gradient-color-one)"/>
-
-                                <stop offset="0.955" stop-color="var(--secondary-gradient-color-two)"/>
-
-                            </linearGradient>
-
-                        </defs>
-
-                    </svg>
-
-                    <div ip-server="mc.gamegrief.ru" class="count-players-and-description-online loading-online"></div>
-
-                </div>
-
-                    </div>
-
-        <button class="navigation-mobile-btn">
-
-            <svg class="menu-svg" viewBox="0 0 20 9" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                <path d="M1 1H19M1 4.56609H19M1 8.13219H19" stroke="var(--mobile-navigation-menu-btn-color)" stroke-width="1.5" stroke-linecap="round"/>
-
-            </svg>
-
-        </button>
-
-    </div>
-
-    </header>
-
-    <main>
-
-        <section class="slogan-container">
-
-            <div class="slogan-bg">
-
-                <img src="assets/img/dragon.png" alt="Картинка баннера">
-
-            </div>
-
-            <div class="slogan-info ">
-
-                <h2 class="slogan-title">GameGrief</h2>
-
-                <p class="slogan-description">Лучшая копия ReallyWorld</p>
-
-                                    <button class="slogan-play-now-btn" ip-server="mc.gamegrief.ru">
-
-                        <svg viewBox="0 0 42 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                            <path d="M41.1569 17.8937L38.7574 7.68914C37.542 3.15353 33.432 0 28.7362 0H12.5464C7.85054 0 3.74057 3.15345 2.52523 7.68914L0.125678 17.8937C-0.488563 20.8208 1.20128 23.7413 4.0464 24.6667L4.1867 24.7117C6.81992 25.569 9.69278 24.4642 11.0749 22.0645L13.1627 18.9773C13.687 18.0671 14.6574 17.5058 15.7066 17.5058H25.5762C26.6254 17.5058 27.5958 18.0671 28.12 18.9773L30.2078 22.0645C31.59 24.4642 34.4634 25.569 37.0967 24.7117L37.2364 24.6667C40.0813 23.7413 41.7713 20.8208 41.1569 17.8937ZM15.4041 11.0552H12.0427V14.4172H9.11619V11.0552H5.7548V8.13002H9.11619V4.76936H12.0427V8.13002H15.4041V11.0552ZM30.2144 4.069C31.2324 4.069 32.0565 4.89312 32.0565 5.91124C32.0565 6.92799 31.2324 7.75211 30.2144 7.75211C29.1976 7.75211 28.3735 6.92799 28.3735 5.91124C28.3735 4.89304 29.1976 4.069 30.2144 4.069ZM26.5313 11.4358C25.5145 11.4358 24.6898 10.6109 24.6898 9.5929C24.6898 8.5768 25.5145 7.75203 26.5313 7.75203C27.5487 7.75203 28.3728 8.5768 28.3728 9.5929C28.3729 10.611 27.5487 11.4358 26.5313 11.4358ZM30.2144 15.1182C29.1976 15.1182 28.3735 14.294 28.3735 13.2773C28.3735 12.2592 29.1976 11.4351 30.2144 11.4351C31.2324 11.4351 32.0565 12.2592 32.0565 13.2773C32.0565 14.294 31.2324 15.1182 30.2144 15.1182ZM33.8974 11.4358C32.8807 11.4358 32.0565 10.6109 32.0565 9.5929C32.0565 8.5768 32.8807 7.75203 33.8974 7.75203C34.9148 7.75203 35.7396 8.5768 35.7396 9.5929C35.7396 10.611 34.9148 11.4358 33.8974 11.4358Z" fill="url(#paint0_linear_235_362)"/>
-
-                            <defs>
-
-                                <linearGradient id="paint0_linear_235_362" x1="41.2826" y1="10.5263" x2="-0.000555194" y2="10.4266" gradientUnits="userSpaceOnUse">
-
-                                    <stop stop-color="var(--secondary-gradient-color-one)"/>
-
-                                    <stop offset="0.955" stop-color="var(--secondary-gradient-color-two)"/>
-
-                                </linearGradient>
-
-                            </defs>
-
-                        </svg>
-
-                        <div data-t="btn-play-now">Играть сейчас</div>
-
-                    </button>
-
+                                    <a href="https://lostgrief.easydonate.ru">
+                                        <div class="spirit-logo-wrapper">
+                                            <img src="https://easydonate.s3.easyx.ru/images/logos/cc/02/cc0298b9c51d9be9ff0e70a3345def1d078abe9bc6a22f3c01dffac98927603e.png" class="spirit-shop-logo" alt="BruhWorld">
+                                            <h3 class="spirit-shop-name">BruhWorld</h3>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <div>
+                                    <ul class="spirit-navbar-menu d-lg-flex d-none">
+                                                                                    <li class="spirit-navbar-item">
+                                                <a href="#shop">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M20 7.5L12 3L4 7.5M20 7.5V16.5L12 21M20 7.5L12 12M12 21L4 16.5V7.5M12 21V12M4 7.5L12 12M8.2 9.8L15.8 5.2" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    Магазин
+                                                </a>
+                                            </li>
+                                            <li class="spirit-navbar-item">
+                                                <a href="#servers">
+                                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                        <path d="M18 12C18.7956 12 19.5587 11.6839 20.1213 11.1213C20.6839 10.5587 21 9.79565 21 9V7C21 6.20435 20.6839 5.44129 20.1213 4.87868C19.5587 4.31607 18.7956 4 18 4H6C5.20435 4 4.44129 4.31607 3.87868 4.87868C3.31607 5.44129 3 6.20435 3 7V9C3 9.79565 3.31607 10.5587 3.87868 11.1213C4.44129 11.6839 5.20435 12 6 12M18 12H6M18 12C18.7956 12 19.5587 12.3161 20.1213 12.8787C20.6839 13.4413 21 14.2044 21 15V17C21 17.7956 20.6839 18.5587 20.1213 19.1213C19.5587 19.6839 18.7956 20 18 20H6C5.20435 20 4.44129 19.6839 3.87868 19.1213C3.31607 18.5587 3 17.7956 3 17V15C3 14.2044 3.31607 13.4413 3.87868 12.8787C4.44129 12.3161 5.20435 12 6 12M7 8V8.01M7 16V16.01M11 8H17M11 16H17" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                    </svg>
+                                                    Наши серверы
+                                                </a>
+                                            </li>
+                                                                                            <li class="spirit-navbar-item">
+                                                    <a href="https://lostgrief.easydonate.ru/__instruction">
+                                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                            <path d="M12 16V16.01M12 13C12.4498 13.0014 12.8868 12.8511 13.2407 12.5734C13.5945 12.2958 13.8444 11.907 13.95 11.4698C14.0557 11.0327 14.0109 10.5726 13.8229 10.1641C13.6349 9.75548 13.3147 9.42219 12.914 9.218C12.5162 9.01421 12.0611 8.95102 11.6228 9.03872C11.1845 9.12642 10.7888 9.35983 10.5 9.701M12 3C19.2 3 21 4.8 21 12C21 19.2 19.2 21 12 21C4.8 21 3 19.2 3 12C3 4.8 4.8 3 12 3Z" stroke="var(--color-default)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                                        </svg>
+                                                        Инструкция по покупке
+                                                    </a>
+                                                </li>
+                                                                                                                        </ul>
+                                </div>
                             </div>
-
-        </section>
-
-        <section class="main-block-container">
-
-            <div class="categories-and-servers-container">
-
-                <div class="categories-container loading-block">
-
-                    <h2 class="categories-title loading-line" data-t="available-products-title">Доступные товары</h2>
-
-                    <p class="categories-description loading-line" data-t="available-products-description">После покупки выдача услуг происходит моментально на ваш игровой аккаунт</p>
-
-                    <div class="categories-list">
-
-                        <div class="two-btns">
-
-                            <button class="one-category loading-line block-animation"></button>
-
-                            <button class="one-category loading-line block-animation"></button>
-
-                        </div>                        
-
-                        <button class="one-category loading-line block-animation"></button>
-
-                    </div>
-
-                </div>
-
-                <div class="servers-container loading-block">
-
-                    <h2 class="servers-title loading-line" data-t="select-mode-title">Выберите режим</h2>
-
-                    <div class="servers-list">
-
-                        <div class="two-btns">
-
-                            <button class="one-server loading-line block-animation"></button>
-
-                            <button class="one-server loading-line block-animation"></button>
-
                         </div>
 
-                        <button class="one-server loading-line block-animation"></button>
+                        <div>
+                            <div class="d-flex align-items-center justify-content-end" style="gap: 6px">
+                                <button type="button" class="btn btn-transparent icon-only flex-shrink-0 btn-switch-theme" onclick="switchTheme(null, true)">
+                                    <svg class="theme-selector theme-dark" width="24" height="24" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M9.35098 1.97004C7.52765 2.44571 6.18165 4.10337 6.18165 6.07571C6.18165 8.41904 8.08131 10.318 10.4243 10.318C12.3963 10.318 14.0543 8.97237 14.5296 7.14904C14.6211 7.59356 14.667 8.04622 14.6666 8.50004C14.6666 12.182 11.682 15.1667 7.99998 15.1667C4.31798 15.1667 1.33331 12.182 1.33331 8.50004C1.33331 4.81804 4.31798 1.83337 7.99998 1.83337C8.46298 1.83337 8.91465 1.88037 9.35098 1.97004Z" stroke="var(--color-default)" stroke-opacity="0.5" stroke-width="1.5" stroke-linejoin="round"></path>
+                                    </svg>
+                                    <svg class="theme-selector theme-light" width="24" height="24" viewBox="0 0 16 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8 1.5V2.55M3.05 3.55L3.79267 4.29267L3.05 3.55ZM1 8.5H2.05H1ZM3.05 13.45L3.79267 12.7073L3.05 13.45ZM12.95 13.45L12.2073 12.7073L12.95 13.45ZM15 8.5H13.95H15ZM12.95 3.55L12.2073 4.29267L12.95 3.55Z" stroke="var(--color-default)" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <path d="M8 12.5C10.209 12.5 12 10.709 12 8.5C12 6.291 10.209 4.5 8 4.5C5.791 4.5 4 6.291 4 8.5C4 10.709 5.791 12.5 8 12.5Z" stroke="var(--color-default)" stroke-opacity="0.5" stroke-width="1.5" stroke-linejoin="round"></path>
+                                        <path d="M8 15.5V14.45" stroke="var(--color-default)" stroke-opacity="0.5" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        <defs>
+                                            <rect width="16" height="16" fill="var(--color-default)" transform="translate(0 0.5)"></rect>
+                                        </defs>
+                                    </svg>
+                                </button>
+                                <a class="cart-badge flex-shrink-0" data-toggle="modal" data-target="#cart">
+                                    <div class="cart-icon-wrapper position-relative">
+                                        <svg width="18" height="20" viewBox="0 0 18 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M3 15C3.53043 15 4.03914 15.2107 4.41421 15.5858C4.78929 15.9609 5 16.4696 5 17C5 17.5304 4.78929 18.0391 4.41421 18.4142C4.03914 18.7893 3.53043 19 3 19C2.46957 19 1.96086 18.7893 1.58579 18.4142C1.21071 18.0391 1 17.5304 1 17C1 16.4696 1.21071 15.9609 1.58579 15.5858C1.96086 15.2107 2.46957 15 3 15ZM3 15H14M3 15V1H1M14 15C14.5304 15 15.0391 15.2107 15.4142 15.5858C15.7893 15.9609 16 16.4696 16 17C16 17.5304 15.7893 18.0391 15.4142 18.4142C15.0391 18.7893 14.5304 19 14 19C13.4696 19 12.9609 18.7893 12.5858 18.4142C12.2107 18.0391 12 17.5304 12 17C12 16.4696 12.2107 15.9609 12.5858 15.5858C12.9609 15.2107 13.4696 15 14 15ZM3 3L17 4L16 11H9.5H3" stroke="var(--color-default)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
 
-                    </div>
-
-                </div>
-
-                                    <div class="rules-container loading-block">
-
-                        <div class="rules-img-conainer loading-line">
-
-                            <img class="rules-img" src="assets/img/book.png" alt="Правила">
-
-                        </div>
-
-                        <h2 class="rules-title loading-line" data-t="server-rules-title">Правила сервера</h2>
-
-                        <p class="rules-description loading-line" data-t="server-rules-description">Эти правила были написаны для наших игроков, чтобы было меньше нарушений</p>
-
-                        <a href="https://telegra.ph/Pravila-Minecraft-servera-12-26">
-
-                            <button class="rules-read-btn loading-line">
-
-                                <div data-t="server-rules-read-btn">Прочитать</div>
-
-                                <svg viewBox="0 0 29 15" fill="var(--rules-color)" xmlns="http://www.w3.org/2000/svg">
-
-                                    <path d="M20.8488 14.2704C20.3349 14.0575 20 13.5562 20 13V9.5625H2.125C1.36562 9.5625 0.75 8.94691 0.75 8.1875V6.8125C0.75 6.05308 1.36562 5.4375 2.125 5.4375H20V2C20 1.44386 20.3349 0.942483 20.8488 0.729661C21.3626 0.516838 21.954 0.63447 22.3473 1.02772L27.8473 6.52773C28.3842 7.06467 28.3842 7.93532 27.8473 8.47226L22.3473 13.9723C21.954 14.3655 21.3626 14.4832 20.8488 14.2704Z" />
-
-                                </svg>
-
-                            </button>
-
-                        </a>
-
-                    </div>
-
+                                        <span class="cart-counter">0</span>
+                                    </div>
+                                    <span class="cart-cost d-sm-block d-none"><span class="opacity-5">0 ₽</span></span>
+                                </a>
                             </div>
-
-            <div class="products-container">
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
+                        </div>
                     </div>
-
                 </div>
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
-                    </div>
-
-                </div>
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
-                    </div>
-
-                </div>
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
-                    </div>
-
-                </div>
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
-                    </div>
-
-                </div>
-
-                <div class="one-product loading-block block-animation">
-
-                    <div class="title-product loading-line"></div>
-
-                    <div class="btns-product">
-
-                        <div class="price-product loading-line"></div>
-
-                        <button class="buy-product-btn loading-line"></button>
-
-                    </div>
-
-                </div>            
-
             </div>
+        </nav>
 
-        </section>
+        <title>BruhWorld - Лучший ванильный сервер ❤️</title>
 
-        <section class="last-products-container loading-block">
-
-            <h2 class="last-products-title loading-line" data-t="recent-purchases-title">Последние покупки</h2>
-
-            <div class="list-products">
-
-                <div class="list-products-slide">
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                    <div class="last-product loading-line"></div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-    </main>
-
-    <footer >
-
-        <div class="footer-container">
-
-            <div class="footer-navigation">
-
-                <a href="https://gamegrief.ru/">
-
-                    <div class="footer-logo-and-title-server">
-
-                        <img src="https://storage.skydonate.ru/uploads/67add52a41a9a.png" class="footer-logo-server">
-
-                        <div class="footer-title-server">GameGrief</div>
-
-                    </div>
-
-                </a>
-
-                <ul class="footer-navigation-hrefs">
-
-                    <li><a href="https://gamegrief.ru/" data-t="main-navigaton">Главная</a></li>
-
-                    <li><a href="javascript:void(0)" onclick="scrollToClass('main-block-container')" data-t="shop-navigation">Магазин</a></li>
-
-                                            <li><a href="https://telegra.ph/Kontakty-02-13-22" data-t="shop-help">Помощь</a></li>
-
-                                    </ul>
-
-                                    <ul class="social-networks">
-
+<section class="section section-jumbotron">
+    <div class="container-fluid">
+        <div class="spirit-shop-jumbotron overlay-dark" style="background-image: url(https://easydonate.s3.easyx.ru/images/backgrounds/23/11/2311fc7b7bb59af26d4ae210a93c5a9bb62de64eaa689b2095d3be873d7581d1.jpg)">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h1 class="shop-name text-lg-left text-center">BruhWorld</h1>
+                                                    <p class="shop-decsription mb-0 text-lg-left text-center">Лучший ванильный сервер ❤️</p>
                         
+                        <div class="spirit-shop-jumbotron-footer justify-content-lg-start justify-content-center">
+                            <a href="#shop" class="btn btn-xl btn-accent rounded-pill" style="width: 294px">
+                                Перейти в магазин
+                            </a>
 
-                        <li><a href="https://vk.com/gamegrief_server"><div class="vk-icon-container"><img src="assets/img/vk.svg" alt="ВКонтакте"></div></a></li>
+                                                            <div class="general-online">
+                                    <div class="d-flex align-items-center" style="gap: 10px">
+                                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <circle opacity="0.25" cx="12.5" cy="12.5" r="12.5" fill="#67FF4F"></circle>
+                                            <circle cx="12.5" cy="12.5" r="6.5" fill="#67FF4F"></circle>
+                                        </svg>
 
-                                            <li><a href="https://t.me/gamegrief_mine"><div class="telegram-icon-container"><img src="assets/img/telegram.svg" alt="Telegram"></div></a></li>
+                                        <h3 class="mb-0 font-weight-400 text-white">0 из 0</h3>
+                                    </div>
+                                    <p class="mb-0 text-lg text-white opacity-5 w-fit mx-md-0 mx-auto">играют сейчас</p>
+                                </div>
+                                                    </div>
+                    </div>
+                                            <div class="col-lg-6 d-lg-block d-none">
+                            <img src="https://easydonate.s3.easyx.ru/images/sides/3b/be/3bbe8c3cedea5eadb30a4b479fa6a222c8922a2d82fa468c29b10c3c0f22da1d.png" class="img-fluid">
+                        </div>
+                                    </div>
+            </div>
+        </div>
+    </div>
+</section>
 
-                                            <li><a href="https://discord.gg/HgbG2waBvk"><div class="discord-icon-container"><img src="assets/img/discord.svg" alt="Discord"></div></a></li>
+<section class="section section-shop wow fadeIn" id="shop">
+    <div class="container">
+        <div class="shop">
+            <div class="row">
+                <div class="col-lg-3">
+                    <ul class="spirit-shop-categories-wrapper">
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                        <li class="skeleton-box" style="height: 118px; border-radius: 999px; border: 0"></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9">
+                    <h3  class="mb-36 d-xl-block d-none">Магазин</h3>
 
-                                        </ul>
+                    <div class="shop-products">
+                        <div class="row">
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px; margin-bottom: 77px"></div>
+                            </div>
+                            <div class="col-lg-3 col-md-4 col-6">
+                                <div class="skeleton-box" style="width: 100%; height: 359px; border-radius: 42px"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
+    <section class="section section-md" id="servers"></section>
+
+<div class="section section-md" id="sections">
+    <div id="last-payments"></div>
+    <div id="vknews"></div>
+</div>
+        <footer class="footer" style="font-size: inherit !important;height: auto !important;z-index: 0; display: block !important; opacity: 1 !important; transform: none !important; position: relative !important; visibility: visible !important;">
+            <div class="container" style="display: block !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important;">
+                <div class="row justify-content-md-start justify-content-center" id="footer" style="display: flex !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important;">
+                    <div class="col-md-6 mb-md-0 mb-5" style="display: block !important; opacity: 1 !important; position: inherit !important; visibility: visible !important;">
+                        <div class="d-flex justify-content-md-start justify-content-center" style="gap: 12px; display: flex !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important;">
+                            <a class="footer-brand" href="https://lostgrief.easydonate.ru">
+                                <img src="https://easydonate.s3.easyx.ru/images/logos/cc/02/cc0298b9c51d9be9ff0e70a3345def1d078abe9bc6a22f3c01dffac98927603e.png">
+                            </a>
+                            <p class="mb-0" style="display: block !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important; color: white !important;">
+                                
+                                <b class="mb-6">BruhWorld</b>
+
+                                <span class="opacity-5">
+                                                                            · магазин не подтвержден
+                                                                    </span>
+
+                                <br>
+
+                                <span class="text-sm opacity-5">
+                                    © 2025
+                                                                        Все права защищены.
+                                </span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-md-6 mb-md-0 mb-5">
+                        <div class="d-flex justify-content-md-start justify-content-center flex-wrap text-md-left text-center" style="gap: 48px">
+                            <div class="footer-socials">
+                                <p class="mb-24 text-white opacity-5">Соц. сети:</p>
+
+                                <div class="d-flex align-items-center justify-content-md-start justify-content-center flex-wrap" style="gap: 24px">
+                                                                                                                                                                                                                                                        </div>
                             </div>
 
-                            <div class="copyright-container">
-
-                    <p class="copyright" data-t="copyright">© 2024-2025, <a class="skydonate-a" href="https://skydonate.ru/" target="_blank">SkyDonate</a>, официальный сайт, все права защищены</p>
-
-                    <div class="made-by">created with <a href="https://skydonate.store/" class="skydonate-a" target="_blank">SkyDonate</a></div>
-
+                                                    </div>
+                    </div>
                 </div>
 
+                
+                <div style="padding-bottom: 105px !important"></div>
+
+                                    <div class="text-white" style="padding: 24px 0!important; margin: 0 !important;border-top: 1px solid rgba(255, 255, 255, 0.1); display: block !important; opacity: 1 !important; transform: none !important; position: relative !important; visibility: visible !important;">
+                        <div class="flex-wrap d-flex align-items-center justify-content-center" style="gap: 12px !important; margin: 0 !important;display: flex !important; opacity: 1 !important; transform: none !important; position: relative !important; visibility: visible !important;">
+                            <p class="mb-0 flex-shrink-0" style="margin: 0 !important;display: block !important; opacity: .5 !important; transform: none !important; position: inherit !important; visibility: visible !important; color: white !important;">Сайт создан с помощью</p>
+                            <a href="//easydonate.ru" target="_blank" class="d-flex align-items-center" style="margin: 0 !important; display: flex !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important;">
+                                <img src="//cp.easydonate.ru/storage/app/media/defaults/easydonate.svg" style="width: 22px;" class="margin: 0 !important;img-fluid mr-1">
+                                <p class="mb-0 text-white font-weight-500" style="margin: 0 !important;display: block !important; opacity: 1 !important; transform: none !important; position: inherit !important; visibility: visible !important;color:var(--spirit-easydonate-brand-color)!important;">EasyDonate</p>
+                            </a>
+                        </div>
                     </div>
+                            </div>
+        </footer>
 
-    </footer>
+        <div class="fixed-bottom-right text-right" style="z-index: 10" id="widgets"></div>
 
-    <div class="lang-select">
-
-        <button class="lang-option" data-lang="ru">Русский</button>
-
-        <button class="lang-option" data-lang="en">English</button>
-
+        
+        <div class="modal animate__animated animate__fadeInRight" style="z-index: 10051; --animate-duration: .35s" id="cart" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+    <div class="modal-dialog modal-lg" role="document">
+        <div class="modal-content cart cart-content"></div>
     </div>
+</div>
 
-    <div class="pop-up-buy-product-area">
+<div class="modal animate__animated animate__fadeIn" id="select-payment-type" style="z-index: 10051; --animate-duration: .35s" tabindex="-1" role="dialog" aria-labelledby="cart" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-body">
+                <div class="swiper swiper-select-payment-type">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div>
+                                <div class="d-flex align-items-center mb-48 flex-wrap" style="gap: 24px">
+                                    <button type="button" class="btn btn-outline-back" data-dismiss="modal" aria-label="Close" data-toggle="modal" data-target="#cart">
+                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path d="M19 12H5M5 12L10.25 6.5M5 12L10.25 17.5" stroke="var(--color-neutral)" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                                        </svg>
+                                    </button>
+                                    <h1 class="font-weight-400 font-family-golos mb-0 d-lg-block d-none">Выберите способ оплаты</h1>
+                                    <h1 class="font-weight-400 font-family-golos mb-0 d-lg-none d-block">Способ оплаты</h1>
+                                </div>
 
-        <div class="pop-up-buy-product">
+                                                                    <div class="row mb-24" style="margin-left: -6px; margin-right: -6px;">
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('sbp', 'tinkoff')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/sbp.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px;height: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">СБП</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Минимум 10 ₽</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('sberpay', 'sberbank')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/sberpay.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px;height: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">SberPay</h5>
+                                                        <p class="text-sm mb-0 color-neutral">В приложении банка</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'tinkoff')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/mir.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">МИР, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Россия</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'tinkoff')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/visa.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">Visa, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Россия</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'tinkoff')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/mastercard.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">MasterCard, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Россия</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'sberbank')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/mir.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">МИР, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Альтернативный шлюз</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'sberbank')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/visa.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">Visa, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Альтернативный шлюз</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class=" col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'sberbank')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/mastercard.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">MasterCard, ₽</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Альтернативный шлюз</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="row mb-24" style="margin-left: -6px; margin-right: -6px;">
+                                                                                    <div class="col-lg-6 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'cypix-netting-kzt')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/visa.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">Visa, ₸</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Минимум 500 ₸</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="col-lg-6 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('card', 'cypix-netting-kzt')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/mastercard.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">MasterCard, ₸</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Минимум 500 ₸</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="row mb-24" style="margin-left: -6px; margin-right: -6px;">
+                                                                                    <div class="col-lg-6 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('advcash', 'advcash')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/volet.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">Volet</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Электронные деньги</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                                    <div class="row " style="margin-left: -6px; margin-right: -6px;">
+                                                                                    <div class="col-lg-4 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('megafon', 'mobimoney')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/megafon.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">МегаФон</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Мобильный</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="col-lg-4 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('beeline', 'mobimoney')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/beeline.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">Билайн</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Мобильный</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                                    <div class="col-lg-4 col-12 mb-12 payment-type-wrapper" style="padding-right: 6px; padding-left: 6px;">
+                                                <a class="payment-type payment-type-default" onclick="onBuy('tele2', 'mobimoney')">
+                                                    <img src="https://lostgrief.easydonate.ru/themes/spirit/assets/images/payment-types/t2.svg" class="img-fluid img-center flex-shrink-0" style="width: 48px">
+                                                    <div class="flex-shrink-0">
+                                                        <h5 class="font-weight-400 mb-6px">t2</h5>
+                                                        <p class="text-sm mb-0 color-neutral">Мобильный</p>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                                                            </div>
+                                                            </div>
+                        </div>
 
-            <button class="pop-up-buy-product-exit-btn">
-
-                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.606 1.68978C13.7729 1.51689 13.8653 1.28534 13.8632 1.04499C13.8612 0.804646 13.7648 0.574735 13.5948 0.404777C13.4248 0.23482 13.1949 0.138415 12.9546 0.136326C12.7142 0.134238 12.4827 0.226633 12.3098 0.393611L6.99955 5.70386L1.6893 0.393611C1.51641 0.226633 1.28486 0.134238 1.04451 0.136326C0.804164 0.138415 0.574253 0.23482 0.404295 0.404777C0.234338 0.574735 0.137933 0.804646 0.135844 1.04499C0.133755 1.28534 0.226151 1.51689 0.393129 1.68978L5.70338 7.00003L0.393129 12.3103C0.305578 12.3948 0.235744 12.496 0.187703 12.6078C0.139661 12.7197 0.114374 12.8399 0.113316 12.9617C0.112258 13.0834 0.135451 13.2041 0.181542 13.3167C0.227633 13.4294 0.295698 13.5317 0.381767 13.6178C0.467835 13.7039 0.570183 13.7719 0.682838 13.818C0.795492 13.8641 0.916199 13.8873 1.03791 13.8863C1.15963 13.8852 1.27991 13.8599 1.39175 13.8119C1.50359 13.7638 1.60474 13.694 1.6893 13.6064L6.99955 8.29619L12.3098 13.6064C12.4827 13.7734 12.7142 13.8658 12.9546 13.8637C13.1949 13.8616 13.4248 13.7652 13.5948 13.5953C13.7648 13.4253 13.8612 13.1954 13.8632 12.9551C13.8653 12.7147 13.7729 12.4832 13.606 12.3103L8.29571 7.00003L13.606 1.68978Z" fill="url(#paint0_linear_356_1779)" />
-
-                    <defs>
-
-                        <linearGradient id="paint0_linear_356_1779" x1="5.80971" y1="-1.8759" x2="20.5709" y2="6.89526" gradientUnits="userSpaceOnUse">
-
-                            <stop stop-color="var(--exit-btn-color-one)" />
-
-                            <stop offset="0.325" stop-color="var(--exit-btn-color-two)" />
-
-                            <stop offset="1" stop-color="var(--exit-btn-color-three)" />
-
-                        </linearGradient>
-
-                    </defs>
-
-                </svg>
-
-            </button>
-
-            <button class="pop-up-buy-back-btn">
-
-                <svg viewBox="0 0 29 15" fill="none" xmlns="http://www.w3.org/2000/svg"> 
-
-                    <path d="M20.8488 14.2704C20.3349 14.0575 20 13.5562 20 13V9.5625H2.125C1.36562 9.5625 0.75 8.94691 0.75 8.1875V6.8125C0.75 6.05308 1.36562 5.4375 2.125 5.4375H20V2C20 1.44386 20.3349 0.942483 20.8488 0.729661C21.3626 0.516838 21.954 0.63447 22.3473 1.02772L27.8473 6.52773C28.3842 7.06467 28.3842 7.93532 27.8473 8.47226L22.3473 13.9723C21.954 14.3655 21.3626 14.4832 20.8488 14.2704Z" fill="url(#paint0_linear)" />
-
-                    <defs>
-
-                        <linearGradient id="paint0_linear" x1="5.80971" y1="-1.8759" x2="20.5709" y2="6.89526" gradientUnits="userSpaceOnUse">
-
-                            <stop stop-color="var(--exit-btn-color-one)" />
-
-                            <stop offset="0.325" stop-color="var(--exit-btn-color-two)" />
-
-                            <stop offset="1" stop-color="var(--exit-btn-color-three)" />
-
-                        </linearGradient>
-
-                    </defs>
-
-                </svg>
-
-            </button>
-
-            <div class="pop-up-parts">
-
-                <div class="values-part">
-
-                    <h2 class="values-part-title" data-t="product-payment-header-title">Оплата товара</h2>
-
-                    <div class="values-part-product-container">
-
-                        <img class="values-part-product-img" alt="Выбранный товар">
-
-                        <div class="values-part-product-title"></div>
-
+                        <div class="swiper-slide">
+                            <div class="before-payment"></div>
+                        </div>
                     </div>
-
-                    <label class="input-container">
-
-                        <input type="text" class="nick" maxlength="16" placeholder="Введите никнейм" data-p="nickname-input">
-
-                        <div class="input-placeholder-container">
-
-                            <img class="input-icon" src="assets/img/crown.png" alt="Никнейм">
-
-                            <div class="input-placeholder" data-t="nickname-placeholder">Ваш никнейм</div>
-
-                        </div>
-
-                    </label>
-
-                    <label class="input-container">
-
-                        <input type="email" class="email" placeholder="Введите почту" data-p="email-input">
-
-                        <div class="input-placeholder-container">
-
-                            <img class="input-icon" src="assets/img/user.png" alt="Почта">
-
-                            <div class="input-placeholder" data-t="email-placeholder">Ваша почта</div>
-
-                        </div>
-
-                    </label>
-
-                    <label class="input-container">
-
-                        <input type="text" class="promo" placeholder="Введите промокод" data-p="promo-input">
-
-                        <div class="input-placeholder-container">
-
-                            <img class="input-icon" src="assets/img/star.png" alt="Промокод">
-
-                            <div class="input-placeholder" data-t="promo-placeholder">Промокод</div>
-
-                        </div>
-
-                    </label>
-
-                    <label class="input-container amount-container">
-
-                        <input type="number" class="amount" placeholder="Введите количество" data-p="amount-input">
-
-                        <div class="input-placeholder-container">
-
-                            <img class="input-icon" src="assets/img/potion.png" alt="Количество">
-
-                            <div class="input-placeholder">Количество</div>
-
-                        </div>
-
-                    </label>
-
-                    <div class="buy-product-price-and-buy-btn"></div>
-
-                    <div class="values-part-next-btn-container"></div>
-
                 </div>
-
-                <div class="payment-part">
-
-                    <div class="payment-methods">
-
-                        <h2 class="payment-methods-title" data-t="choose-payment-method">Выберите способ оплаты</h2>
-
-                        <div class="payment-methods-list">
-
-                            <button class="payment-method selected-payment-method" data-payment-method="1">
-
-                                <img class="payment-method-img" src="assets/img/russian_card.png" alt="Российские карты" data-s="russians-cards-method-src">
-
-                                <h3 class="payment-method-title" data-t="russian-card">Российские карты</h3>
-
-                                <p class="payment-method-status" data-t="available-card">Доступно</p>
-
-                            </button>
-
-                            <button class="payment-method" data-payment-method="2">
-
-                                <img class="payment-method-img" src="assets/img/international_card.png?v=2" alt="Международные карты">
-
-                                <h3 class="payment-method-title" data-t="international-cards">Международные карты</h3>
-
-                                <p class="payment-method-status" data-t="available-card">Доступно</p>
-
-                            </button>
-
-                        </div>
-
-                    </div>
-
-                    <div class="gluing-container">
-
-                        <h2 class="gluing-container-title">Выберите позицию</h2>
-
-                        <div class="gluing-list-container">
-
-                            <div class="gluing-list"></div>
-
-                        </div>
-
-                    </div>
-
-                    <label class="agreement-and-privacy-policy-container">
-
-                        <input type="checkbox" class="agreement-and-privacy-policy-checkbox">
-
-                        <div class="agreement-and-privacy-policy-checkbox-custom"></div>
-
-                        <div class="agreement-and-privacy-policy-text">
-
-                            <p class="agreement-and-privacy-policy-warning" data-t="agreement-and-privacy-policy-warning">Внимание!</p>
-
-                            <p class="agreement-and-privacy-policy-info" data-t="agreement-and-privacy-policy-info">Я принимаю <a href="https://skydonate.ru/documents/polzovatelskoe_soglashenie_skydonate.pdf" target="_blank">Соглашение</a> и <a href="https://skydonate.ru/documents/policy.pdf" target="_blank">Политику конфиденциальности</a></p>
-
-                        </div>
-
-                    </label>
-
-                    <div class="buy-product-price-and-buy-btn"></div>
-
-                </div>
-
             </div>
-
         </div>
-
     </div>
+</div>
 
-    <div class="pop-up-title-area">
+<script>
+    var swiperSelectPaymentType;
 
-        <div class="pop-up-title">
+    window.addEventListener('load', () => {
+        $('#select-payment-type').on('shown.bs.modal', () => {
+            swiperSelectPaymentType = new Swiper('.swiper-select-payment-type', {
+                slidesPerView: 1,
+                spaceBetween: 0,
+                allowTouchMove: false,
+                autoplay: false,
+                loop: false,
+                followFinger: false,
+                preventClicks: true,
+                autoHeight: true,
+                calculateHeight: true,
+                speed: 250,
+                a11y: false,
+            });
 
-            <button class="pop-up-title-exit-btn">
+            swiperSelectPaymentType.on('slideChange', function (s) {
+                console.log($(s.slides[s.activeIndex]).find('*').height());
+                $(s.el).css({
+                    height: $(s.slides[s.activeIndex]).find('*').height()
+                });
+            });
+        });
+    });
+</script>    </body>
 
-                <svg viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <script type="text/javascript" src="/themes/spirit/assets/js/jquery.min.js?v=3.6.3"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/jquery.cookie.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/theming.js?v=9" async></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/popper.min.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/pixel.min.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/wow.min.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/swiper.min.js"></script>
+    <script type="text/javascript" src="/themes/spirit/assets/js/app.js?v=14" async></script>
 
-                    <path fill-rule="evenodd" clip-rule="evenodd" d="M13.606 1.68978C13.7729 1.51689 13.8653 1.28534 13.8632 1.04499C13.8612 0.804646 13.7648 0.574735 13.5948 0.404777C13.4248 0.23482 13.1949 0.138415 12.9546 0.136326C12.7142 0.134238 12.4827 0.226633 12.3098 0.393611L6.99955 5.70386L1.6893 0.393611C1.51641 0.226633 1.28486 0.134238 1.04451 0.136326C0.804164 0.138415 0.574253 0.23482 0.404295 0.404777C0.234338 0.574735 0.137933 0.804646 0.135844 1.04499C0.133755 1.28534 0.226151 1.51689 0.393129 1.68978L5.70338 7.00003L0.393129 12.3103C0.305578 12.3948 0.235744 12.496 0.187703 12.6078C0.139661 12.7197 0.114374 12.8399 0.113316 12.9617C0.112258 13.0834 0.135451 13.2041 0.181542 13.3167C0.227633 13.4294 0.295698 13.5317 0.381767 13.6178C0.467835 13.7039 0.570183 13.7719 0.682838 13.818C0.795492 13.8641 0.916199 13.8873 1.03791 13.8863C1.15963 13.8852 1.27991 13.8599 1.39175 13.8119C1.50359 13.7638 1.60474 13.694 1.6893 13.6064L6.99955 8.29619L12.3098 13.6064C12.4827 13.7734 12.7142 13.8658 12.9546 13.8637C13.1949 13.8616 13.4248 13.7652 13.5948 13.5953C13.7648 13.4253 13.8612 13.1954 13.8632 12.9551C13.8653 12.7147 13.7729 12.4832 13.606 12.3103L8.29571 7.00003L13.606 1.68978Z" fill="url(#paint0_linear_356_1780)" />
+    
+    
+    <script src="/modules/system/assets/js/framework.js"></script>
+<script src="/modules/system/assets/js/framework.extras.js"></script>
+<link rel="stylesheet" property="stylesheet" href="/modules/system/assets/css/framework.extras.css">
+    <script src="https://lostgrief.easydonate.ru/plugins/dontfollow/easydonate/assets/js/easydonate.js?v=44"></script>
+<script src="https://lostgrief.easydonate.ru/plugins/dontfollow/easydonate/assets/js/payment.js?v=6"></script>
+<script src="https://lostgrief.easydonate.ru/plugins/dontfollow/attendance/assets/js/metric.js?v=1"></script>
+<script src="https://lostgrief.easydonate.ru/plugins/easyx/auth/assets/js/easyid.js?v=1"></script>
 
-                    <defs>
-
-                        <linearGradient id="paint0_linear_356_1780" x1="5.80971" y1="-1.8759" x2="20.5709" y2="6.89526" gradientUnits="userSpaceOnUse">
-
-                            <stop stop-color="var(--exit-btn-color-one)" />
-
-                            <stop offset="0.325" stop-color="var(--exit-btn-color-two)" />
-
-                            <stop offset="1" stop-color="var(--exit-btn-color-three)" />
-
-                        </linearGradient>
-
-                    </defs>
-
-                </svg>
-
-            </button>
-
-            <h2 class="pop-up-title-title" data-t="enter-title">Ввод титула</h2>
-
-            <div class="pop-up-title-demo"></div>
-
-            <label class="input-container">
-
-                <input type="text" class="title" data-max-length="12" data-p="title-placeholder" placeholder="Введите титул">
-
-                <div class="input-placeholder-container">
-
-                    <img class="input-icon" src="assets/img/star.png" alt="Титул">
-
-                    <div class="input-placeholder" data-t="title-input">Введите титул</div>
-
-                </div>
-
-            </label>
-
-            <div class="title-confirm-btn-container">
-
-                <div class="error">
-
-                    <div data-t="title-input">Введите титул</div>
-
-                </div>
-
-            </div>
-
-        </div>
-
-    </div>
-
-    <script type="text/javascript" src="assets/js/translation.js?v=2"></script>
-
-    <script type="text/javascript" src="assets/js/mobileNavigation.js"></script>
-
-    <script type="text/javascript" src="assets/js/products.js?v=2"></script>
-
-    <script type="text/javascript" src="assets/js/popUpBuy.js?v=6"></script>
-
-    <script type="text/javascript" src="assets/js/smoothScroll.js"></script>
-
-                <script type="text/javascript" src="assets/js/copyIp.js?v=2"></script>
-
-        <script type="text/javascript" src="assets/js/online.js?v=1"></script>
-
-    <script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'93ec3b4b1a59350c',t:'MTc0NzA3NzE4OC4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+    <script type="text/javascript">
+                $.request('Shop::onLoadShop', {
+                    update: {
+                        cart_cost: '.cart-cost',
+                        cart_counter: '.cart-counter',
+                        shop: '.shop',
+                        'cart': '.cart-content',
+                        'select_server': '.select-server',
+                    }
+                });
+            </script>
+    <script type="text/javascript">
+        $('.modal').on('shown.bs.modal', () => {
+            var body = $('body')
+            if (!body.hasClass('modal-open')) {
+                body.addClass('modal-open')
+            }
+        })
+    </script>
+</html>
